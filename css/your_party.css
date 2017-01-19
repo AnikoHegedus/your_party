@@ -1,0 +1,239 @@
+.six-images {
+  background-repeat: no-repeat;
+  width: 370px;
+  height: 300px;
+  margin: 5px;
+  background-size: 100%;
+  font-size: 35px;
+  display: flex;
+  align-items: flex-end;
+}
+.h1-h2-font {
+  color: white;
+  font-family: 'Alegreya', serif;
+  font-style: normal;
+  text-shadow: 2px 2px black;
+}
+/*GENERAL*/
+body {
+  font-family: 'Alegreya', serif;
+  margin-left: 27px;
+  margin-right: 27px;
+}
+/*HEADER*/
+img {
+  float: left;
+  margin-bottom: 25px;
+}
+li {
+  list-style-type: none;
+  color: #173493;
+  font-size: 16px;
+  padding: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0;
+  padding-right: 60px;
+}
+/*BLOCK 1 */
+h1 {
+  font-size: 4.5em;
+  color: white;
+  font-family: 'Alegreya', serif;
+  font-style: normal;
+  text-shadow: 2px 2px black;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 3em;
+  color: white;
+  font-family: 'Alegreya', serif;
+  font-style: normal;
+  text-shadow: 2px 2px black;
+  margin-top: 15px;
+}
+.block1 {
+  clear: both;
+  background-image: url('../img/enchant-your-guests.jpg');
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1281px;
+}
+.package {
+  background-color: #3B6B04;
+  width: 220px;
+  height: 67px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 5px;
+  font-size: 23px;
+  font-weight: 700;
+  margin: 20px;
+  overflow: hidden;
+  -webkit-box-shadow: -6px 8px 84px 3px #b3adb3;
+  -moz-box-shadow: -6px 8px 84px 3px #b3adb3;
+  box-shadow: -6px 8px 84px 3px #b3adb3;
+}
+.features {
+  background-color: #173493;
+  width: 1281px;
+  height: 130px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0;
+  padding-right: 0;
+  line-height: 1px;
+}
+.features img {
+  margin: 1px;
+}
+.features p {
+  margin-top: 10px;
+}
+.quality,
+.reliability,
+.speed {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.quality {
+  padding-left: 250px;
+}
+.speed {
+  padding-right: 250px;
+}
+/*BLOCK 2*/
+.block2 {
+  color: white;
+  margin-left: 75px;
+}
+.caption {
+  background-color: #333;
+  opacity: 0.6;
+  height: 67px;
+  width: 370px;
+  overflow: hidden;
+  padding-left: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.first-three,
+.second-three {
+  display: flex;
+  flex-direction: row;
+}
+.romance {
+  background-image: url("../img/romance.jpg");
+  background-repeat: no-repeat;
+  width: 370px;
+  height: 300px;
+  margin: 5px;
+  background-size: 100%;
+  font-size: 35px;
+  display: flex;
+  align-items: flex-end;
+}
+.feast {
+  background-image: url("../img/visitors.jpg");
+  background-repeat: no-repeat;
+  width: 370px;
+  height: 300px;
+  margin: 5px;
+  background-size: 100%;
+  font-size: 35px;
+  display: flex;
+  align-items: flex-end;
+}
+.picnic {
+  background-image: url("../img/picnic.jpg");
+  background-repeat: no-repeat;
+  width: 370px;
+  height: 300px;
+  margin: 5px;
+  background-size: 100%;
+  font-size: 35px;
+  display: flex;
+  align-items: flex-end;
+}
+.grill {
+  background-image: url("../img/grill.jpg");
+  background-repeat: no-repeat;
+  width: 370px;
+  height: 300px;
+  margin: 5px;
+  background-size: 100%;
+  font-size: 35px;
+  display: flex;
+  align-items: flex-end;
+}
+.celebration {
+  background-image: url("../img/celebration.jpg");
+  background-repeat: no-repeat;
+  width: 370px;
+  height: 300px;
+  margin: 5px;
+  background-size: 100%;
+  font-size: 35px;
+  display: flex;
+  align-items: flex-end;
+}
+.kids {
+  background-image: url("../img/kids.jpg");
+  background-repeat: no-repeat;
+  width: 370px;
+  height: 300px;
+  margin: 5px;
+  background-size: 100%;
+  font-size: 35px;
+  display: flex;
+  align-items: flex-end;
+}
+/*BLOCK 3 - delivery*/
+.delivery-headline {
+  background-color: #173493;
+  width: 1220px;
+  color: white;
+  font-size: 2.8em;
+  font-family: 'Alegreya', serif;
+  font-style: normal;
+  padding-left: 80px;
+  padding-top: 60px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  margin-top: 40px;
+}
+.delivery {
+  background-color: #173493;
+  width: 1250px;
+  color: white;
+  margin-top: 0;
+  padding-right: 50px;
+  padding-bottom: 35px;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Open Sans', sans-serif;
+}
+.column,
+h3 {
+  margin-left: 35px;
+}
+h3 {
+  font-size: 14px;
+  font-weight: bold;
+}
+.column {
+  line-height: 25px;
+}
